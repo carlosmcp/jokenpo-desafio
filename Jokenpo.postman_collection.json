@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "ca3a641f-81dc-4f83-a501-399796477b11",
+		"name": "Jokenpo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "rules",
+			"item": [
+				{
+					"name": "localhost:3000/v1/users/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNhcmxvc0Buc2Nhc2UuY29tLmJyIiwiaWF0IjoxNTg5MzA0MDU2LCJleHAiOjE1ODkzMTAwNTZ9.FHXwDJARYn2GlrFhyY3Y19jntxvR-htC6BM-BRJxeqU"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"move1\": \"pedra\",\n    \"move2\": \"papel\",\n    \"beat\": \"papel\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/jokenpo/rules",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"jokenpo",
+								"rules"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/v1/jokenpo/rules",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/jokenpo/rules",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"jokenpo",
+								"rules"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/v1/jokenpo/rules/838592064",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/jokenpo/rules/838592064",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"jokenpo",
+								"rules",
+								"838592064"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/v1/jokenpo/rules/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/jokenpo/rules/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"jokenpo",
+								"rules",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "players",
+			"item": [
+				{
+					"name": "localhost:8080/api/v1/jokenpo/rules/2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"carlos\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/jokenpo/players/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"jokenpo",
+								"players",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/v1/jokenpo/players/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/jokenpo/players/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"jokenpo",
+								"players",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/v1/jokenpo/players/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/jokenpo/players/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"jokenpo",
+								"players",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

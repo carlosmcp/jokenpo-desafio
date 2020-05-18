@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jokenpo.JokenpoEngineTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-18T19:49:19" hostname="carlos-Inspiron-5420" time="0.112">
+  <properties/>
+  <testcase name="Should add a rule()" classname="jokenpo.JokenpoEngineTest" time="0.052"/>
+  <testcase name="Should not eval a rule()" classname="jokenpo.JokenpoEngineTest" time="0.005"/>
+  <testcase name="Should find a winner into a list of Moves - 1()" classname="jokenpo.JokenpoEngineTest" time="0.026"/>
+  <testcase name="Should find a winner into a list of Moves - 2()" classname="jokenpo.JokenpoEngineTest" time="0.002"/>
+  <testcase name="Should remove a rule()" classname="jokenpo.JokenpoEngineTest" time="0.009"/>
+  <testcase name="Should eval a rule()" classname="jokenpo.JokenpoEngineTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
